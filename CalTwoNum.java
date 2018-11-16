@@ -52,10 +52,10 @@ public class CalTwoNum {
       Scanner sc = new Scanner(System.in);
       CalTwoNum culator = new CalTwoNum();
 
-      System.out.println("Enter First Number: ");
-      num1 = culator.checkDouble(sc);
-
       do{
+        System.out.println("Enter First Number: ");
+        num1 = culator.checkDouble(sc);
+
         System.out.println("Enter Second Number: ");
         num2 = culator.checkDouble(sc);
 
